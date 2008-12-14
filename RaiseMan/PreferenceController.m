@@ -8,8 +8,9 @@
 
 #import "PreferenceController.h"
 
-NSString * const BNRTableBgColorKey	= @"TableBackgroundColor";
-NSString * const BNREmptyDocKey		= @"EmptyDocumentFlag";
+NSString * const BNRTableBgColorKey				= @"TableBackgroundColor";
+NSString * const BNREmptyDocKey					= @"EmptyDocumentFlag";
+NSString * const BNRColorChangedNotification	= @"BNRColorChanged";
 
 @implementation PreferenceController
 
@@ -51,6 +52,16 @@ NSString * const BNREmptyDocKey		= @"EmptyDocumentFlag";
 	NSUserDefaults	* defaults		= [NSUserDefaults standardUserDefaults];
 	[defaults setObject: colorAsData
 				 forKey: BNRTableBgColorKey];
+	
+	NSNotificationCenter	*nc		= [NSNotificationCenter defaultCenter];
+	
+	NSLog(@"Sending notification");
+	
+	NSDictionary			* d		= [NSDictionary dictionaryWithObject: color
+																  forKey: @"color"];
+	[nc postNotificationName: BNRColorChangedNotification
+					  object: self
+					userInfo: d];
 	
 	NSLog(@"Color changed: %@", color);
 }

@@ -275,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
+									<integer>18</integer>
 									<integer>13</integer>
 									<integer>0</integer>
 								</array>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PreferenceController.m</string>
+								<string>MyDocument.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,23 +326,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PreferenceController.m</string>
+										<string>MyDocument.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>52B34ACC0EF596B7005EF901</string>
+										<string>52B34AEA0EF5CD8B005EF901</string>
 										<key>history</key>
 										<array>
 											<string>520C39590EDA1B3800F76556</string>
 											<string>524683510EEC4F54000C3F3A</string>
 											<string>5246839E0EEC5954000C3F3A</string>
 											<string>52BF23060EEC91D6002C3924</string>
-											<string>52BF23090EEC91D6002C3924</string>
-											<string>52B34A9B0EF58E94005EF901</string>
 											<string>52B34A9C0EF58E94005EF901</string>
 											<string>52B34AC00EF59655005EF901</string>
-											<string>52B34AC10EF59655005EF901</string>
-											<string>52B34AC20EF59655005EF901</string>
+											<string>52B34AD20EF5C88E005EF901</string>
+											<string>52B34AE00EF5C9DD005EF901</string>
+											<string>52B34AE60EF5CD8B005EF901</string>
+											<string>52B34AE70EF5CD8B005EF901</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -380,6 +380,19 @@
 											<string>52B34AC60EF59655005EF901</string>
 											<string>52B34AC70EF59655005EF901</string>
 											<string>52B34AC80EF59655005EF901</string>
+											<string>52B34AD40EF5C88E005EF901</string>
+											<string>52B34AD50EF5C88E005EF901</string>
+											<string>52B34AD60EF5C88E005EF901</string>
+											<string>52B34AD70EF5C88E005EF901</string>
+											<string>52B34AD80EF5C88E005EF901</string>
+											<string>52B34AD90EF5C88E005EF901</string>
+											<string>52B34ADA0EF5C88E005EF901</string>
+											<string>52B34ADB0EF5C88E005EF901</string>
+											<string>52B34ADC0EF5C88E005EF901</string>
+											<string>52B34AE20EF5C9DD005EF901</string>
+											<string>52B34AE30EF5C9DD005EF901</string>
+											<string>52B34AE80EF5CD8B005EF901</string>
+											<string>52B34AE90EF5CD8B005EF901</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -575,8 +588,8 @@
 	<array>
 		<string>5204D3A00ED0C67B00476998</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/john/Documents/Projects/test/RaiseMan/RaiseMan.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/john/Documents/Projects/test/RaiseMan/RaiseMan.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>365 88 1070 790 0 0 1440 878 </string>
@@ -595,6 +608,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -617,8 +632,6 @@
 							<string>244pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
