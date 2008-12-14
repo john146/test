@@ -30,7 +30,7 @@ NSString * const BNREmptyDocKey		= @"EmptyDocumentFlag";
 	return [NSKeyedUnarchiver unarchiveObjectWithData: colorAsData];
 }
 
-- (BOOL)EmptyDoc
+- (BOOL)emptyDoc
 {
 	NSUserDefaults	* defaults		= [NSUserDefaults standardUserDefaults];
 	return [defaults boolForKey: BNREmptyDocKey];
@@ -38,7 +38,7 @@ NSString * const BNREmptyDocKey		= @"EmptyDocumentFlag";
 
 - (void)WindowDidLoad
 {
-	[colorWell setColor: [self tableBgColor]];
+	[colorWell setColor: [self tableBGColor]];
 	[checkBox setState: [self emptyDoc]];
 	
 	NSLog(@"Nib file is loaded");
@@ -63,6 +63,26 @@ NSString * const BNREmptyDocKey		= @"EmptyDocumentFlag";
 			   forKey: BNREmptyDocKey];
 	
 	NSLog(@"Checkbox changed %d", state);
+}
+
+- (IBAction)resetPreferences: (id)sender
+{
+	NSLog(@"resetPreferences selected");
+	
+	// Seems like a hack, but it seems to be the best way to start
+	NSColor	* color			= [NSColor yellowColor];
+	NSData	* colorAsData	= [NSKeyedArchiver archivedDataWithRootObject: color];
+	BOOL	emptyDoc		= YES;
+	
+	NSUserDefaults	* defaults	= [NSUserDefaults standardUserDefaults];
+	[defaults setObject: colorAsData
+				 forKey: BNRTableBgColorKey];
+	[defaults setBool: emptyDoc
+			   forKey: BNREmptyDocKey];
+	
+	// Now reset the preferences box
+	[colorWell setColor: [self tableBGColor]];
+	[checkBox setState: [self emptyDoc]];
 }
 
 @end

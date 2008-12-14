@@ -19,6 +19,7 @@ extern NSString * const BNREmptyDocKey;
 
 - (IBAction)changeBackgroundColor: (id)sender;
 - (IBAction)changeNewEmptyDoc: (id)sender;
+- (IBAction)resetPreferences: (id)sender;
 
 - (NSColor *)tableBGColor;
 - (BOOL)emptyDoc;

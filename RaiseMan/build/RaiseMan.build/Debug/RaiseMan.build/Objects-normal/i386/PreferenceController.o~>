@@ -1,7 +1,0 @@
-/Users/john/Documents/Projects/test/RaiseMan/PreferenceController.m: In function '-[PreferenceController WindowDidLoad]':
-/Users/john/Documents/Projects/test/RaiseMan/PreferenceController.m:41: warning: 'PreferenceController' may not respond to '-tableBgColor'
-/Users/john/Documents/Projects/test/RaiseMan/PreferenceController.m:41: warning: (Messages without a matching method signature
-/Users/john/Documents/Projects/test/RaiseMan/PreferenceController.m:41: warning: will be assumed to return 'id' and accept
-/Users/john/Documents/Projects/test/RaiseMan/PreferenceController.m:41: warning: '...' as arguments.)
-/Users/john/Documents/Projects/test/RaiseMan/PreferenceController.m:42: warning: 'PreferenceController' may not respond to '-emptyDoc'
-/Users/john/Documents/Projects/test/RaiseMan/PreferenceController.m:42: warning: passing argument 1 of 'setState:' makes integer from pointer without a cast
