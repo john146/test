@@ -179,8 +179,8 @@
 			 ofObject: (id)obj
 			  toValue: (id)newValue
 {
-	// setValue: forKeyPath: will cause teh key-value observing method
-	// to be called, which takes care of teh undo stuff
+	// setValue: forKeyPath: will cause the key-value observing method
+	// to be called, which takes care of the undo stuff
 	[obj setValue: newValue
 	   forKeyPath: keyPath];
 }
@@ -193,7 +193,7 @@
 	NSUndoManager	* undo		= [self undoManager];
 	id				oldValue	= [change objectForKey: NSKeyValueChangeOldKey];
 	
-	// NSNull objects are sued t represent nil in a dictionary
+	// NSNull objects are used to represent nil in a dictionary
 	if (oldValue == [NSNull null])
 	{
 		oldValue				= nil;
@@ -270,7 +270,7 @@
 	NSAlert	* alert				= [NSAlert alertWithMessageText: @"Delete?"
 												  defaultButton: @"Delete"
 												alternateButton: @"Cancel"
-													otherButton: nil
+													otherButton: @"Keep, but no raise"
 									  informativeTextWithFormat: @"Do you really want to delete %d people?", 
 															[selectedPeople count]];
 	
@@ -295,6 +295,16 @@
 		// The argument to remove: is ignored
 		// The array controller will delete the selected objects
 		[employeeController remove: nil];
+	}
+	else if (choice == NSAlertOtherReturn)
+	{
+		// This is the other choice, we set the raises to 0
+		NSArray	* selectedPeople	= [employeeController selectedObjects];
+		for (int i = 0; i < [selectedPeople count]; ++i)
+		{
+			Person	* p	= [selectedPeople objectAtIndex: i];
+			[p setExpectedRaise: 0.0];
+		}
 	}
 }
 
