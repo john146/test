@@ -12,6 +12,35 @@
 
 @synthesize nameField;
 @synthesize numberField;
+@synthesize sliderLabel;
+@synthesize leftSwitch;
+@synthesize rightSwitch;
+@synthesize switchView;
+
+- (IBAction)switchChanged: (id)sender
+{
+	UISwitch	*whichSwitch	= (UISwitch	*)sender;
+	BOOL		setting			= whichSwitch.isOn;
+	[leftSwitch setOn: setting 
+			 animated:YES];
+	[rightSwitch setOn: setting
+			  animated:YES];
+}
+
+- (IBAction)toggleShowHide: (id)sender
+{
+	UISegmentedControl	*segmentedControl	= (UISegmentedControl *)sender;
+	NSInteger			segment				= segmentedControl.selectedSegmentIndex;
+	
+	if (segment == kShowSegmentIndex)
+	{
+		[switchView setHidden: NO];
+	}
+	else
+	{
+		[switchView setHidden: YES];
+	}
+}
 
 - (IBAction)textFieldDoneEditing: (id)sender
 {
@@ -24,6 +53,16 @@
 	[numberField resignFirstResponder];
 }
 
+- (IBAction)sliderChanged: (id)sender
+{
+	UISlider	*slider			= (UISlider *)sender;
+	int			progressAsInt	= (int)(slider.value + 0.5f);
+	NSString	*newText		= [[NSString alloc] initWithFormat: @"%D", progressAsInt];
+	
+	sliderLabel.text			= newText;
+	
+	[newText release];
+}
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.

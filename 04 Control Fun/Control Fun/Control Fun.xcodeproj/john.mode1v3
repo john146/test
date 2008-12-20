@@ -329,12 +329,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5246FB240EFDACF900938410</string>
+										<string>5246FB300EFDB22000938410</string>
 										<key>history</key>
 										<array>
 											<string>5246FB0A0EFDAB1D00938410</string>
-											<string>5246FB200EFDACF900938410</string>
-											<string>5246FB210EFDACF900938410</string>
+											<string>5246FB260EFDB04700938410</string>
+											<string>5246FB270EFDB04700938410</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -344,6 +344,8 @@
 											<string>5246FB1D0EFDABF100938410</string>
 											<string>5246FB220EFDACF900938410</string>
 											<string>5246FB230EFDACF900938410</string>
+											<string>5246FB280EFDB04700938410</string>
+											<string>5246FB290EFDB04700938410</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -539,8 +541,8 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5246FB050EFDAB0A00938410</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/john/Documents/Projects/test/04 Control Fun/Control Fun/Control Fun.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>577 140 854 738 0 0 1440 878 </string>
