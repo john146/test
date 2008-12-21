@@ -16,6 +16,8 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* Control_FunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Control_FunViewController.m */; };
 		5246FB010EFD838800938410 /* apress_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246FB000EFD838800938410 /* apress_logo.png */; };
+		5246FB370EFDD59600938410 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246FB350EFDD59600938410 /* whiteButton.png */; };
+		5246FB380EFDD59600938410 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246FB360EFDD59600938410 /* blueButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Control_Fun_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control_Fun_Prefix.pch; sourceTree = "<group>"; };
 		5246FB000EFD838800938410 /* apress_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apress_logo.png; sourceTree = "<group>"; };
+		5246FB350EFDD59600938410 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		5246FB360EFDD59600938410 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5246FB350EFDD59600938410 /* whiteButton.png */,
+				5246FB360EFDD59600938410 /* blueButton.png */,
 				5246FB000EFD838800938410 /* apress_logo.png */,
 				2899E5210DE3E06400AC0155 /* Control_FunViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -155,6 +161,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* Control_FunViewController.xib in Resources */,
 				5246FB010EFD838800938410 /* apress_logo.png in Resources */,
+				5246FB370EFDD59600938410 /* whiteButton.png in Resources */,
+				5246FB380EFDD59600938410 /* blueButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

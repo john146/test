@@ -16,6 +16,18 @@
 @synthesize leftSwitch;
 @synthesize rightSwitch;
 @synthesize switchView;
+@synthesize doSomethingButton;
+
+- (IBAction)doSomething: (id)sender
+{
+	UIActionSheet	*actionSheet	= [[UIActionSheet alloc] initWithTitle: @"Are you sure?"
+															 delegate: self
+													cancelButtonTitle: @"No Way!"
+											   destructiveButtonTitle: @"Yes, I'm Sure!"
+													otherButtonTitles: nil];
+	[actionSheet showInView: self.view];
+	[actionSheet release];
+}
 
 - (IBAction)switchChanged: (id)sender
 {
@@ -64,6 +76,34 @@
 	[newText release];
 }
 
+- (void)actionSheet: (UIActionSheet *)actionSheet
+didDismissWithButtonIndex: (NSInteger)buttonIndex
+{
+	if (!buttonIndex == [actionSheet cancelButtonIndex])
+	{
+		NSString	*msg	= nil;
+		
+		if (nameField.text.length > 0)
+		{
+			msg		= [[NSString alloc] 
+					   initWithFormat: @"You can breathe easy, %@, everything went OK.", nameField.text];
+		}
+		else
+		{
+			msg		= @"You can breathe easy, everything went OK.";
+		}
+		
+		UIAlertView	*alert		= [[UIAlertView alloc] initWithTitle: @"Something was done"
+															 message: msg
+															delegate: self
+												   cancelButtonTitle: @"Phew!"
+												   otherButtonTitles: nil];
+		[alert show];
+		[alert release];
+		[msg release];
+	}
+}
+
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -80,14 +120,21 @@
 }
 */
 
-
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)viewDidLoad 
+{
+	UIImage	*buttonImageNormal				= [UIImage imageNamed: @"whiteButton.png"];
+	UIImage	*stretchableButtonImageNormal	= [buttonImageNormal stretchableImageWithLeftCapWidth: 12
+																				topCapHeight:0];
+	[doSomethingButton setBackgroundImage: stretchableButtonImageNormal
+								 forState: UIControlStateNormal];
+	
+	UIImage	*buttonImagePressed				= [UIImage imageNamed: @"blueButton.png"];
+	UIImage	*stretchableButtonImagePressed	= [buttonImagePressed stretchableImageWithLeftCapWidth: 12
+																					topCapHeight: 0];
+	[doSomethingButton setBackgroundImage: stretchableButtonImagePressed
+								 forState: UIControlStateHighlighted];
 }
-*/
-
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -105,6 +152,14 @@
 
 
 - (void)dealloc {
+	[nameField release];
+	[numberField release];
+	[sliderLabel release];
+	[leftSwitch release];
+	[rightSwitch release];
+	[switchView release];
+	[doSomethingButton release];
+	
     [super dealloc];
 }
 
