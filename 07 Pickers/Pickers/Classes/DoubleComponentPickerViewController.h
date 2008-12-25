@@ -11,7 +11,8 @@
 #define kFillingComponent	0
 #define kBreadComponent		1
 
-@interface DoubleComponentPickerViewController : UIViewController 
+@interface DoubleComponentPickerViewController : UIViewController
+			<UIPickerViewDelegate, UIPickerViewDataSource>
 {
 	IBOutlet UIPickerView	*doublePicker;
 	NSArray					*fillingTypes;

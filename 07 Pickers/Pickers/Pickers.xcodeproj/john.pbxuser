@@ -27,6 +27,8 @@
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Pickers */,
 		);
+		breakpoints = (
+		);
 		codeSenseManager = 52090F970F01D3420062C30B /* Code sense */;
 		executables = (
 			52090F8A0F01D33D0062C30B /* Pickers */,
@@ -39,7 +41,7 @@
 					20,
 					401,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -58,53 +60,47 @@
 			PBXWorkspaceStateSaveDate = 251860453;
 		};
 		perUserProjectItems = {
-			52090FAA0F01D41E0062C30B = 52090FAA0F01D41E0062C30B /* PBXTextBookmark */;
-			52090FAB0F01D41E0062C30B = 52090FAB0F01D41E0062C30B /* PBXTextBookmark */;
-			52090FAC0F01D41E0062C30B = 52090FAC0F01D41E0062C30B /* PBXTextBookmark */;
-			52090FAD0F01D41E0062C30B = 52090FAD0F01D41E0062C30B /* PBXTextBookmark */;
-			52090FAE0F01D41E0062C30B = 52090FAE0F01D41E0062C30B /* PBXTextBookmark */;
-			52090FAF0F01D41E0062C30B = 52090FAF0F01D41E0062C30B /* PBXTextBookmark */;
-			52090FB00F01D41E0062C30B = 52090FB00F01D41E0062C30B /* PBXTextBookmark */;
-			52090FB10F01D41E0062C30B = 52090FB10F01D41E0062C30B /* PBXTextBookmark */;
-			52090FB20F01D41E0062C30B = 52090FB20F01D41E0062C30B /* PBXTextBookmark */;
-			52090FB30F01D41E0062C30B = 52090FB30F01D41E0062C30B /* PBXTextBookmark */;
-			52090FC30F01D6620062C30B = 52090FC30F01D6620062C30B /* PBXTextBookmark */;
-			52090FC40F01D6620062C30B = 52090FC40F01D6620062C30B /* PBXTextBookmark */;
-			52090FC50F01D6620062C30B = 52090FC50F01D6620062C30B /* PBXTextBookmark */;
-			52090FC60F01D6620062C30B = 52090FC60F01D6620062C30B /* PBXTextBookmark */;
-			52090FC70F01D6620062C30B = 52090FC70F01D6620062C30B /* PBXTextBookmark */;
-			52090FC80F01D6620062C30B = 52090FC80F01D6620062C30B /* PBXTextBookmark */;
-			52090FC90F01D6620062C30B = 52090FC90F01D6620062C30B /* PBXTextBookmark */;
-			52090FCA0F01D6620062C30B = 52090FCA0F01D6620062C30B /* PBXTextBookmark */;
-			52090FCB0F01D6620062C30B = 52090FCB0F01D6620062C30B /* PBXTextBookmark */;
-			52090FCC0F01D6620062C30B = 52090FCC0F01D6620062C30B /* PBXTextBookmark */;
-			52090FCD0F01D6620062C30B = 52090FCD0F01D6620062C30B /* PBXTextBookmark */;
-			52090FCE0F01D6620062C30B = 52090FCE0F01D6620062C30B /* PBXTextBookmark */;
-			52090FCF0F01D6620062C30B = 52090FCF0F01D6620062C30B /* PBXTextBookmark */;
-			52090FEF0F01DF070062C30B = 52090FEF0F01DF070062C30B /* PBXTextBookmark */;
-			52090FF00F01DF070062C30B = 52090FF00F01DF070062C30B /* PBXTextBookmark */;
-			52090FF10F01DF070062C30B = 52090FF10F01DF070062C30B /* PBXTextBookmark */;
-			52090FF20F01DF070062C30B = 52090FF20F01DF070062C30B /* PBXTextBookmark */;
-			52090FF30F01DF070062C30B = 52090FF30F01DF070062C30B /* PBXTextBookmark */;
-			52090FF40F01DF070062C30B = 52090FF40F01DF070062C30B /* PBXTextBookmark */;
-			52090FF50F01DF070062C30B = 52090FF50F01DF070062C30B /* PBXTextBookmark */;
-			52090FF60F01DF070062C30B = 52090FF60F01DF070062C30B /* PBXTextBookmark */;
-			52090FF70F01DF070062C30B = 52090FF70F01DF070062C30B /* PBXTextBookmark */;
-			52090FF80F01DF070062C30B = 52090FF80F01DF070062C30B /* PBXTextBookmark */;
-			520910030F01E05E0062C30B = 520910030F01E05E0062C30B /* PBXTextBookmark */;
-			520910040F01E05E0062C30B = 520910040F01E05E0062C30B /* PBXTextBookmark */;
-			520910050F01E05E0062C30B = 520910050F01E05E0062C30B /* PBXTextBookmark */;
-			520910070F01E5340062C30B = 520910070F01E5340062C30B /* PBXTextBookmark */;
-			520910080F01E5340062C30B = 520910080F01E5340062C30B /* PBXTextBookmark */;
-			520910090F01E5340062C30B = 520910090F01E5340062C30B /* PBXTextBookmark */;
-			5209100B0F01E5670062C30B = 5209100B0F01E5670062C30B /* PBXTextBookmark */;
-			5209100C0F01E5670062C30B = 5209100C0F01E5670062C30B /* PBXTextBookmark */;
-			5209100E0F01E5C90062C30B = 5209100E0F01E5C90062C30B /* PBXTextBookmark */;
-			5209100F0F01EA170062C30B = 5209100F0F01EA170062C30B /* PBXTextBookmark */;
-			520910100F01EA170062C30B = 520910100F01EA170062C30B /* PBXTextBookmark */;
-			520910110F01EA170062C30B = 520910110F01EA170062C30B /* PBXTextBookmark */;
-			520910120F01EA170062C30B = 520910120F01EA170062C30B /* PBXTextBookmark */;
-			520910130F01EA170062C30B = 520910130F01EA170062C30B /* PBXTextBookmark */;
+			52090FAF0F01D41E0062C30B /* PBXTextBookmark */ = 52090FAF0F01D41E0062C30B /* PBXTextBookmark */;
+			52090FB00F01D41E0062C30B /* PBXTextBookmark */ = 52090FB00F01D41E0062C30B /* PBXTextBookmark */;
+			52090FB10F01D41E0062C30B /* PBXTextBookmark */ = 52090FB10F01D41E0062C30B /* PBXTextBookmark */;
+			52090FB20F01D41E0062C30B /* PBXTextBookmark */ = 52090FB20F01D41E0062C30B /* PBXTextBookmark */;
+			52090FB30F01D41E0062C30B /* PBXTextBookmark */ = 52090FB30F01D41E0062C30B /* PBXTextBookmark */;
+			52090FC70F01D6620062C30B /* PBXTextBookmark */ = 52090FC70F01D6620062C30B /* PBXTextBookmark */;
+			52090FCA0F01D6620062C30B /* PBXTextBookmark */ = 52090FCA0F01D6620062C30B /* PBXTextBookmark */;
+			52090FEF0F01DF070062C30B /* PBXTextBookmark */ = 52090FEF0F01DF070062C30B /* PBXTextBookmark */;
+			52090FF10F01DF070062C30B /* PBXTextBookmark */ = 52090FF10F01DF070062C30B /* PBXTextBookmark */;
+			52090FF50F01DF070062C30B /* PBXTextBookmark */ = 52090FF50F01DF070062C30B /* PBXTextBookmark */;
+			52090FF60F01DF070062C30B /* PBXTextBookmark */ = 52090FF60F01DF070062C30B /* PBXTextBookmark */;
+			520910030F01E05E0062C30B /* PBXTextBookmark */ = 520910030F01E05E0062C30B /* PBXTextBookmark */;
+			52F541B00F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B00F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B10F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B10F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B20F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B20F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B30F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B30F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B40F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B40F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B50F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B50F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B60F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B60F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B70F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B70F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B80F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B80F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541B90F033BDB00CC3336 /* PBXTextBookmark */ = 52F541B90F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541BA0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541BA0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541BB0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541BB0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541BC0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541BC0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541BD0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541BD0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541BE0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541BE0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541BF0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541BF0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C00F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C00F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C10F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C10F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C20F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C20F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C30F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C30F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C40F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C40F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C50F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C50F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C60F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C60F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C70F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C70F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C80F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C80F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541C90F033BDB00CC3336 /* PBXTextBookmark */ = 52F541C90F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541CA0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541CA0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541CB0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541CB0F033BDB00CC3336 /* PBXTextBookmark */;
+			52F541CC0F033BDB00CC3336 /* PBXTextBookmark */ = 52F541CC0F033BDB00CC3336 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 52090F960F01D3420062C30B /* Source Control */;
 		userBuildSettings = {
@@ -131,6 +127,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Pickers;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
@@ -170,79 +168,51 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {612, 1414}}";
 			sepNavSelRange = "{2364, 0}";
-			sepNavVisRange = "{2066, 576}";
+			sepNavVisRange = "{2066, 575}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
 	52090F9E0F01D3C10062C30B /* DoubleComponentPickerViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {579, 437}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 265}";
+			sepNavIntBoundsRect = "{{0, 0}, {579, 414}}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 654}";
+		};
+	};
+	52090F9F0F01D3C10062C30B /* DoubleComponentPickerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 1918}}";
+			sepNavSelRange = "{3335, 0}";
+			sepNavVisRange = "{2724, 612}";
 		};
 	};
 	52090FA10F01D3D50062C30B /* DependentComponentPickerViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {579, 437}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 271}";
+			sepNavIntBoundsRect = "{{0, 0}, {579, 434}}";
+			sepNavSelRange = "{388, 0}";
+			sepNavVisRange = "{0, 703}";
+		};
+	};
+	52090FA20F01D3D50062C30B /* DependentComponentPickerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {657, 2408}}";
+			sepNavSelRange = "{3063, 0}";
+			sepNavVisRange = "{2910, 292}";
 		};
 	};
 	52090FA40F01D3E70062C30B /* CustomPickerViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {579, 437}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 247}";
+			sepNavIntBoundsRect = "{{0, 0}, {579, 546}}";
+			sepNavSelRange = "{651, 0}";
+			sepNavVisRange = "{91, 807}";
 		};
 	};
-	52090FAA0F01D41E0062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F980F01D3910062C30B /* DatePickerViewController.h */;
-		name = "DataPickerViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 243;
-		vrLoc = 0;
-	};
-	52090FAB0F01D41E0062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SimgleComponentPickerViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 265;
-		vrLoc = 0;
-	};
-	52090FAC0F01D41E0062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9E0F01D3C10062C30B /* DoubleComponentPickerViewController.h */;
-		name = "DoubleComponentPickerViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 265;
-		vrLoc = 0;
-	};
-	52090FAD0F01D41E0062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090FA10F01D3D50062C30B /* DependentComponentPickerViewController.h */;
-		name = "DependentComponentPickerViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 271;
-		vrLoc = 0;
-	};
-	52090FAE0F01D41E0062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090FA40F01D3E70062C30B /* CustomPickerViewController.h */;
-		name = "CustomPickerViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 247;
-		vrLoc = 0;
+	52090FA50F01D3E70062C30B /* CustomPickerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 2954}}";
+			sepNavSelRange = "{4182, 0}";
+			sepNavVisRange = "{3341, 781}";
+		};
 	};
 	52090FAF0F01D41E0062C30B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -294,67 +264,7 @@
 		vrLen = 247;
 		vrLoc = 0;
 	};
-	52090FC30F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		name = "SingleComponentPickerViewController.m: 12";
-		rLen = 0;
-		rLoc = 230;
-		rType = 0;
-		vrLen = 826;
-		vrLoc = 0;
-	};
-	52090FC40F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 12";
-		rLen = 0;
-		rLoc = 202;
-		rType = 0;
-		vrLen = 265;
-		vrLoc = 0;
-	};
-	52090FC50F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F980F01D3910062C30B /* DatePickerViewController.h */;
-		name = "DatePickerViewController.h: 12";
-		rLen = 0;
-		rLoc = 192;
-		rType = 0;
-		vrLen = 243;
-		vrLoc = 0;
-	};
-	52090FC60F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
-		name = "DatePickerViewController.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 793;
-		vrLoc = 0;
-	};
 	52090FC70F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
-		name = "DatePickerViewController.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 793;
-		vrLoc = 0;
-	};
-	52090FC80F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F980F01D3910062C30B /* DatePickerViewController.h */;
-		name = "DatePickerViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 243;
-		vrLoc = 0;
-	};
-	52090FC90F01D6620062C30B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
 		name = "DatePickerViewController.m: 1";
@@ -374,56 +284,6 @@
 		vrLen = 826;
 		vrLoc = 0;
 	};
-	52090FCB0F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 265;
-		vrLoc = 0;
-	};
-	52090FCC0F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		name = "SingleComponentPickerViewController.m: 12";
-		rLen = 0;
-		rLoc = 230;
-		rType = 0;
-		vrLen = 826;
-		vrLoc = 0;
-	};
-	52090FCD0F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 12";
-		rLen = 0;
-		rLoc = 202;
-		rType = 0;
-		vrLen = 265;
-		vrLoc = 0;
-	};
-	52090FCE0F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F980F01D3910062C30B /* DatePickerViewController.h */;
-		name = "DatePickerViewController.h: 12";
-		rLen = 0;
-		rLoc = 192;
-		rType = 0;
-		vrLen = 243;
-		vrLoc = 0;
-	};
-	52090FCF0F01D6620062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
-		name = "DatePickerViewController.m: 12";
-		rLen = 0;
-		rLoc = 209;
-		rType = 0;
-		vrLen = 793;
-		vrLoc = 0;
-	};
 	52090FEF0F01DF070062C30B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* PickersAppDelegate.h */;
@@ -434,16 +294,6 @@
 		vrLen = 444;
 		vrLoc = 0;
 	};
-	52090FF00F01DF070062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* PickersAppDelegate.m */;
-		name = "PickersAppDelegate.m: 19";
-		rLen = 0;
-		rLoc = 422;
-		rType = 0;
-		vrLen = 572;
-		vrLoc = 0;
-	};
 	52090FF10F01DF070062C30B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 52090F980F01D3910062C30B /* DatePickerViewController.h */;
@@ -452,36 +302,6 @@
 		rLoc = 368;
 		rType = 0;
 		vrLen = 375;
-		vrLoc = 0;
-	};
-	52090FF20F01DF070062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
-		name = "DatePickerViewController.m: 12";
-		rLen = 0;
-		rLoc = 209;
-		rType = 0;
-		vrLen = 793;
-		vrLoc = 0;
-	};
-	52090FF30F01DF070062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
-		name = "DatePickerViewController.m: 12";
-		rLen = 0;
-		rLoc = 209;
-		rType = 0;
-		vrLen = 793;
-		vrLoc = 0;
-	};
-	52090FF40F01DF070062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F980F01D3910062C30B /* DatePickerViewController.h */;
-		name = "DatePickerViewController.h: 12";
-		rLen = 0;
-		rLoc = 192;
-		rType = 0;
-		vrLen = 243;
 		vrLoc = 0;
 	};
 	52090FF50F01DF070062C30B /* PBXTextBookmark */ = {
@@ -504,26 +324,6 @@
 		vrLen = 572;
 		vrLoc = 0;
 	};
-	52090FF70F01DF070062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F980F01D3910062C30B /* DatePickerViewController.h */;
-		name = "DatePickerViewController.h: 19";
-		rLen = 0;
-		rLoc = 368;
-		rType = 0;
-		vrLen = 375;
-		vrLoc = 0;
-	};
-	52090FF80F01DF070062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
-		name = "DatePickerViewController.m: 70";
-		rLen = 0;
-		rLoc = 1910;
-		rType = 0;
-		vrLen = 772;
-		vrLoc = 1162;
-	};
 	520910030F01E05E0062C30B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
@@ -534,132 +334,299 @@
 		vrLen = 772;
 		vrLoc = 1162;
 	};
-	520910040F01E05E0062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F990F01D3910062C30B /* DatePickerViewController.m */;
-		name = "DatePickerViewController.m: 70";
-		rLen = 0;
-		rLoc = 1910;
-		rType = 0;
-		vrLen = 772;
-		vrLoc = 1162;
+	52F5417E0F03235600CC3336 /* statedictionary.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
+		};
 	};
-	520910050F01E05E0062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 22";
-		rLen = 0;
-		rLoc = 522;
-		rType = 0;
-		vrLen = 529;
-		vrLoc = 0;
-	};
-	520910070F01E5340062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 22";
-		rLen = 0;
-		rLoc = 522;
-		rType = 0;
-		vrLen = 529;
-		vrLoc = 0;
-	};
-	520910080F01E5340062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 22";
-		rLen = 0;
-		rLoc = 522;
-		rType = 0;
-		vrLen = 529;
-		vrLoc = 0;
-	};
-	520910090F01E5340062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		name = "SingleComponentPickerViewController.m: 97";
-		rLen = 0;
-		rLoc = 2638;
-		rType = 0;
-		vrLen = 575;
-		vrLoc = 2068;
-	};
-	5209100B0F01E5670062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "warning: initialization makes pointer from integer without a cast";
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		rLen = 1;
-		rLoc = 28;
-		rType = 1;
-	};
-	5209100C0F01E5670062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		name = "SingleComponentPickerViewController.m: 29";
-		rLen = 0;
-		rLoc = 691;
-		rType = 0;
-		vrLen = 873;
-		vrLoc = 290;
-	};
-	5209100E0F01E5C90062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		name = "SingleComponentPickerViewController.m: 87";
-		rLen = 0;
-		rLoc = 2364;
-		rType = 0;
-		vrLen = 576;
-		vrLoc = 2066;
-	};
-	5209100F0F01EA170062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		name = "SingleComponentPickerViewController.m: 87";
-		rLen = 0;
-		rLoc = 2364;
-		rType = 0;
-		vrLen = 576;
-		vrLoc = 2066;
-	};
-	520910100F01EA170062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 22";
-		rLen = 0;
-		rLoc = 522;
-		rType = 0;
-		vrLen = 529;
-		vrLoc = 0;
-	};
-	520910110F01EA170062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
-		name = "SingleComponentPickerViewController.m: 87";
-		rLen = 0;
-		rLoc = 2364;
-		rType = 0;
-		vrLen = 576;
-		vrLoc = 2066;
-	};
-	520910120F01EA170062C30B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
-		name = "SingleComponentPickerViewController.h: 22";
-		rLen = 0;
-		rLoc = 522;
-		rType = 0;
-		vrLen = 529;
-		vrLoc = 0;
-	};
-	520910130F01EA170062C30B /* PBXTextBookmark */ = {
+	52F541B00F033BDB00CC3336 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* PickersAppDelegate.m */;
 		name = "PickersAppDelegate.m: 19";
 		rLen = 0;
 		rLoc = 422;
 		rType = 0;
-		vrLen = 572;
+		vrLen = 578;
 		vrLoc = 0;
+	};
+	52F541B10F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9F0F01D3C10062C30B /* DoubleComponentPickerViewController.m */;
+		name = "DoubleComponentPickerViewController.m: 126";
+		rLen = 0;
+		rLoc = 3335;
+		rType = 0;
+		vrLen = 612;
+		vrLoc = 2724;
+	};
+	52F541B20F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9E0F01D3C10062C30B /* DoubleComponentPickerViewController.h */;
+		name = "DoubleComponentPickerViewController.h: 15";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 654;
+		vrLoc = 0;
+	};
+	52F541B30F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
+		name = "SingleComponentPickerViewController.h: 22";
+		rLen = 0;
+		rLoc = 522;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 0;
+	};
+	52F541B40F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
+		name = "SingleComponentPickerViewController.m: 87";
+		rLen = 0;
+		rLoc = 2364;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 2066;
+	};
+	52F541B50F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA20F01D3D50062C30B /* DependentComponentPickerViewController.m */;
+		name = "DependentComponentPickerViewController.m: 19";
+		rLen = 80;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 354;
+	};
+	52F541B60F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA10F01D3D50062C30B /* DependentComponentPickerViewController.h */;
+		name = "DependentComponentPickerViewController.h: 17";
+		rLen = 0;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	52F541B70F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA40F01D3E70062C30B /* CustomPickerViewController.h */;
+		name = "CustomPickerViewController.h: 29";
+		rLen = 0;
+		rLoc = 651;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 91;
+	};
+	52F541B80F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA50F01D3E70062C30B /* CustomPickerViewController.m */;
+		name = "CustomPickerViewController.m: 10";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	52F541B90F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickersAppDelegate.m */;
+		name = "PickersAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 0;
+	};
+	52F541BA0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9E0F01D3C10062C30B /* DoubleComponentPickerViewController.h */;
+		name = "DoubleComponentPickerViewController.h: 25";
+		rLen = 0;
+		rLoc = 647;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 0;
+	};
+	52F541BB0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9F0F01D3C10062C30B /* DoubleComponentPickerViewController.m */;
+		name = "DoubleComponentPickerViewController.m: 29";
+		rLen = 0;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 0;
+	};
+	52F541BC0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9E0F01D3C10062C30B /* DoubleComponentPickerViewController.h */;
+		name = "DoubleComponentPickerViewController.h: 11";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 0;
+	};
+	52F541BD0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9F0F01D3C10062C30B /* DoubleComponentPickerViewController.m */;
+		name = "DoubleComponentPickerViewController.m: 126";
+		rLen = 0;
+		rLoc = 3335;
+		rType = 0;
+		vrLen = 612;
+		vrLoc = 2724;
+	};
+	52F541BE0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA10F01D3D50062C30B /* DependentComponentPickerViewController.h */;
+		name = "DependentComponentPickerViewController.h: 15";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	52F541BF0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9E0F01D3C10062C30B /* DoubleComponentPickerViewController.h */;
+		name = "DoubleComponentPickerViewController.h: 15";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 654;
+		vrLoc = 0;
+	};
+	52F541C00F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA20F01D3D50062C30B /* DependentComponentPickerViewController.m */;
+		name = "DependentComponentPickerViewController.m: 56";
+		rLen = 5;
+		rLoc = 4087;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	52F541C10F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA10F01D3D50062C30B /* DependentComponentPickerViewController.h */;
+		name = "DependentComponentPickerViewController.h: 28";
+		rLen = 0;
+		rLoc = 696;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 0;
+	};
+	52F541C20F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
+		name = "SingleComponentPickerViewController.m: 87";
+		rLen = 0;
+		rLoc = 2364;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 2066;
+	};
+	52F541C30F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9B0F01D3AD0062C30B /* SingleComponentPickerViewController.h */;
+		name = "SingleComponentPickerViewController.h: 22";
+		rLen = 0;
+		rLoc = 522;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 0;
+	};
+	52F541C40F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090F9C0F01D3AD0062C30B /* SingleComponentPickerViewController.m */;
+		name = "SingleComponentPickerViewController.m: 87";
+		rLen = 0;
+		rLoc = 2364;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 2066;
+	};
+	52F541C50F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA20F01D3D50062C30B /* DependentComponentPickerViewController.m */;
+		name = "DependentComponentPickerViewController.m: 157";
+		rLen = 0;
+		rLoc = 4082;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 3458;
+	};
+	52F541C60F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA10F01D3D50062C30B /* DependentComponentPickerViewController.h */;
+		name = "DependentComponentPickerViewController.h: 25";
+		rLen = 0;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	52F541C70F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA20F01D3D50062C30B /* DependentComponentPickerViewController.m */;
+		name = "DependentComponentPickerViewController.m: 19";
+		rLen = 80;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 354;
+	};
+	52F541C80F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA10F01D3D50062C30B /* DependentComponentPickerViewController.h */;
+		name = "DependentComponentPickerViewController.h: 17";
+		rLen = 0;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	52F541C90F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA40F01D3E70062C30B /* CustomPickerViewController.h */;
+		name = "CustomPickerViewController.h: 33";
+		rLen = 0;
+		rLoc = 915;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 91;
+	};
+	52F541CA0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA50F01D3E70062C30B /* CustomPickerViewController.m */;
+		name = "CustomPickerViewController.m: 10";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	52F541CB0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA40F01D3E70062C30B /* CustomPickerViewController.h */;
+		name = "CustomPickerViewController.h: 29";
+		rLen = 0;
+		rLoc = 651;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 91;
+	};
+	52F541CC0F033BDB00CC3336 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52090FA50F01D3E70062C30B /* CustomPickerViewController.m */;
+		name = "CustomPickerViewController.m: 162";
+		rLen = 0;
+		rLoc = 4182;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 3341;
 	};
 }

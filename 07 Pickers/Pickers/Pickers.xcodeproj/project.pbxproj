@@ -34,6 +34,10 @@
 		52090FE50F01D95E0062C30B /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52090FE00F01D95E0062C30B /* doubleicon.png */; };
 		52090FE60F01D95E0062C30B /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52090FE10F01D95E0062C30B /* singleicon.png */; };
 		52090FE70F01D95E0062C30B /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52090FE20F01D95E0062C30B /* toolicon.png */; };
+		52F5417F0F03235700CC3336 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52F5417E0F03235600CC3336 /* statedictionary.plist */; };
+		52F5418B0F0335E300CC3336 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52F541890F0335E300CC3336 /* crunch.wav */; };
+		52F5418C0F0335E300CC3336 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52F5418A0F0335E300CC3336 /* win.wav */; };
+		52F541A40F033A3A00CC3336 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F541A30F033A3A00CC3336 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		52090FE00F01D95E0062C30B /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
 		52090FE10F01D95E0062C30B /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		52090FE20F01D95E0062C30B /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		52F5417E0F03235600CC3336 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		52F541890F0335E300CC3336 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		52F5418A0F0335E300CC3336 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		52F541A30F033A3A00CC3336 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +91,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				52F541A40F033A3A00CC3336 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +149,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				52F541890F0335E300CC3336 /* crunch.wav */,
+				52F5418A0F0335E300CC3336 /* win.wav */,
+				52F5417E0F03235600CC3336 /* statedictionary.plist */,
 				52090FDE0F01D95E0062C30B /* clockicon.png */,
 				52090FDF0F01D95E0062C30B /* dependenticon.png */,
 				52090FE00F01D95E0062C30B /* doubleicon.png */,
@@ -165,6 +177,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52F541A30F033A3A00CC3336 /* AudioToolbox.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -231,6 +244,9 @@
 				52090FE50F01D95E0062C30B /* doubleicon.png in Resources */,
 				52090FE60F01D95E0062C30B /* singleicon.png in Resources */,
 				52090FE70F01D95E0062C30B /* toolicon.png in Resources */,
+				52F5417F0F03235700CC3336 /* statedictionary.plist in Resources */,
+				52F5418B0F0335E300CC3336 /* crunch.wav in Resources */,
+				52F5418C0F0335E300CC3336 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +275,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -273,6 +293,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Pickers_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
