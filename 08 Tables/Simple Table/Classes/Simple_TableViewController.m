@@ -7,6 +7,7 @@
 //
 
 #import "Simple_TableViewController.h"
+#import <CoreGraphics/CoreGraphics.h>
 
 @implementation Simple_TableViewController
 
@@ -88,8 +89,55 @@
 	
 	NSUInteger row	= [indexPath row];
 	cell.text		= [listData objectAtIndex: row];
+	cell.font		= [UIFont boldSystemFontOfSize: 80];
+	
+	UIImage	*image	= [UIImage imageNamed: @"star.png"];
+	cell.image		= image;
 	
 	return cell;
+}
+
+- (NSInteger)tableView: (UITableView *)tableView
+	indentationLevelForRowAtIndexPath: (NSIndexPath *)indexPath
+{
+	NSUInteger	row	= [indexPath row];
+	return row;
+}
+
+- (NSIndexPath *)tableView: (UITableView *)tableView
+  willSelectRowAtIndexPath: (NSIndexPath *)indexPath
+{
+	NSUInteger	row	= [indexPath row];
+	if (row == 0)
+		return nil;
+	
+	return indexPath;
+}
+
+- (void)tableView: (UITableView *)tableView
+	didSelectRowAtIndexPath: (NSIndexPath *)indexPath
+{
+	NSUInteger	row			= [indexPath row];
+	NSString	*rowValue	= [listData objectAtIndex: row];
+	NSString	*message	= [[NSString alloc] initWithFormat: @"You selected %@", rowValue];
+	UIAlertView	*alert		= [[UIAlertView alloc] initWithTitle: @"Row Selected!"
+													 message: message
+													delegate: nil
+										   cancelButtonTitle: @"Yes, I did"
+										   otherButtonTitles: nil];
+	[alert show];
+	
+	[message release];
+	[alert release];
+}
+
+#pragma mark -
+#pragma mark Table View Delegate Methods
+
+- (CGFloat)tableView: (UITableView *)tableView
+	heightForRowAtIndexPath: (NSIndexPath *)indexPath
+{
+	return 180;
 }
 
 @end

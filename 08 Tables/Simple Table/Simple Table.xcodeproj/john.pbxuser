@@ -1,15 +1,39 @@
 // !$*UTF8*$!
 {
+	1D3623250D0F684500981E51 /* Simple_TableAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {672, 476}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 635}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Simple Table */ = {
 		activeExec = 0;
 		executables = (
 			523726430F0434D700274C28 /* Simple Table */,
 		);
 	};
+	28D7ACF60DDB3853001CB0EB /* Simple_TableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {672, 418}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 368}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Simple_TableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {672, 1344}}";
+			sepNavSelRange = "{2477, 0}";
+			sepNavVisRange = "{1763, 723}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 523726430F0434D700274C28 /* Simple Table */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Simple Table */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Simple Table */,
+		);
 		codeSenseManager = 5237264D0F0434F500274C28 /* Code sense */;
 		executables = (
 			523726430F0434D700274C28 /* Simple Table */,
@@ -29,12 +53,13 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
