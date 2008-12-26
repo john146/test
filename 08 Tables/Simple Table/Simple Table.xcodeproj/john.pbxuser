@@ -1,0 +1,59 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Simple Table */ = {
+		activeExec = 0;
+		executables = (
+			523726430F0434D700274C28 /* Simple Table */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 523726430F0434D700274C28 /* Simple Table */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Simple Table */;
+		codeSenseManager = 5237264D0F0434F500274C28 /* Code sense */;
+		executables = (
+			523726430F0434D700274C28 /* Simple Table */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 251933911;
+			PBXWorkspaceStateSaveDate = 251933911;
+		};
+		sourceControlManager = 5237264C0F0434F500274C28 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	523726430F0434D700274C28 /* Simple Table */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Simple Table";
+		sourceDirectories = (
+		);
+	};
+	5237264C0F0434F500274C28 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	5237264D0F0434F500274C28 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
