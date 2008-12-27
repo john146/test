@@ -22,9 +22,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* Simple_TableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {672, 1344}}";
-			sepNavSelRange = "{2477, 0}";
-			sepNavVisRange = "{1763, 723}";
+			sepNavIntBoundsRect = "{{0, 0}, {672, 2044}}";
+			sepNavSelRange = "{3722, 0}";
+			sepNavVisRange = "{2982, 749}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -39,8 +39,39 @@
 			523726430F0434D700274C28 /* Simple Table */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 251933911;
-			PBXWorkspaceStateSaveDate = 251933911;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					494,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 252035322;
+			PBXWorkspaceStateSaveDate = 252035322;
+		};
+		perUserProjectItems = {
+			5237265E0F046C6600274C28 /* PBXTextBookmark */ = 5237265E0F046C6600274C28 /* PBXTextBookmark */;
+			5237265F0F046C6600274C28 /* PBXTextBookmark */ = 5237265F0F046C6600274C28 /* PBXTextBookmark */;
+			523726610F046C6600274C28 /* PBXTextBookmark */ = 523726610F046C6600274C28 /* PBXTextBookmark */;
+			523726620F046C6600274C28 /* PBXTextBookmark */ = 523726620F046C6600274C28 /* PBXTextBookmark */;
+			523726630F046C6600274C28 /* PBXTextBookmark */ = 523726630F046C6600274C28 /* PBXTextBookmark */;
+			523726650F046C6600274C28 /* PBXTextBookmark */ = 523726650F046C6600274C28 /* PBXTextBookmark */;
+			529F55450F05C140003713DC /* PBXTextBookmark */ = 529F55450F05C140003713DC /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5237264C0F0434F500274C28 /* Source Control */;
 		userBuildSettings = {
@@ -80,5 +111,75 @@
 	5237264D0F0434F500274C28 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	5237265E0F046C6600274C28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Simple_TableAppDelegate.m */;
+		name = "Simple_TableAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 635;
+		vrLoc = 0;
+	};
+	5237265F0F046C6600274C28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Simple_TableViewController.h */;
+		name = "Simple_TableViewController.h: 17";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 0;
+	};
+	523726610F046C6600274C28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Simple_TableAppDelegate.m */;
+		name = "Simple_TableAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 635;
+		vrLoc = 0;
+	};
+	523726620F046C6600274C28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Simple_TableViewController.h */;
+		name = "Simple_TableViewController.h: 17";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 0;
+	};
+	523726630F046C6600274C28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Simple_TableViewController.m */;
+		name = "Simple_TableViewController.m: 92";
+		rLen = 0;
+		rLoc = 2641;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 1763;
+	};
+	523726650F046C6600274C28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Simple_TableViewController.m */;
+		name = "Simple_TableViewController.m: 140";
+		rLen = 0;
+		rLoc = 3722;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 3001;
+	};
+	529F55450F05C140003713DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Simple_TableViewController.m */;
+		name = "Simple_TableViewController.m: 140";
+		rLen = 0;
+		rLoc = 3722;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 2982;
 	};
 }
