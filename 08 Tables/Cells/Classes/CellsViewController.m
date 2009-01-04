@@ -62,7 +62,7 @@
 
 - (void)dealloc 
 {
-	[computers release];
+//	[computers release];
 	
     [super dealloc];
 }
@@ -70,9 +70,11 @@
 #pragma mark -
 #pragma mark Table Data Source Methods
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)tableView:(UITableView *)tableView 
+ numberOfRowsInSection:(NSInteger)section
 {
 	NSLog(@"Returning %d", [self.computers count]);
+
 	return [self.computers count];
 }
 
@@ -82,12 +84,17 @@
 	static NSString *CustomCellIdentifier = @"CustomCellIdentifier ";
 	
 	CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier: CustomCellIdentifier];
+	
+	NSLog(@"Ready to instantiate cell");
+	
 	if (cell == nil)
 	{
 		NSArray	*nib	= [[NSBundle mainBundle] loadNibNamed: @"CustomCell"
 													 owner: self
 												   options: nil];
-		cell			= [nib objectAtIndex: 1];
+		cell			= [nib objectAtIndex: 0];
+		
+		NSLog(@"Array size: %d", [nib count]);
 	}
 	
 	NSUInteger		row			= [indexPath row];
