@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -298,7 +300,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>597 88 833 774 0 0 1440 878 </string>
+						<string>501 95 833 774 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -326,11 +328,11 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>522930D00EFB51CF001FBB55</string>
+										<string>52B1E28C0F2D293000AC332A</string>
 										<key>history</key>
 										<array>
 											<string>522930CD0EFB51CF001FBB55</string>
-											<string>522930CE0EFB51CF001FBB55</string>
+											<string>522930D00EFB51CF001FBB55</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -348,7 +350,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {625, 555}}</string>
 								<key>RubberWindowFrame</key>
-								<string>597 88 833 774 0 0 1440 878 </string>
+								<string>501 95 833 774 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -368,7 +370,7 @@
 								<key>Frame</key>
 								<string>{{0, 560}, {625, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>597 88 833 774 0 0 1440 878 </string>
+								<string>501 95 833 774 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -392,9 +394,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>522930BD0EFB4F19001FBB55</string>
+				<string>52B1E28D0F2D293000AC332A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>522930BE0EFB4F19001FBB55</string>
+				<string>52B1E28E0F2D293000AC332A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -528,13 +530,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>522930BA0EFB4F13001FBB55</string>
 		<string>/Users/john/Documents/Projects/test/02 Hello World/Hello World/Hello World.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>597 88 833 774 0 0 1440 878 </string>
+	<string>501 95 833 774 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

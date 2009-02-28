@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,7 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>37</integer>
+									<integer>33</integer>
+									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -300,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>563 184 848 688 0 0 1440 878 </string>
+						<string>543 64 848 688 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -311,12 +310,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CustomPickerViewController.m</string>
+								<string>SingleComponentPickerViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,25 +325,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CustomPickerViewController.m</string>
+										<string>SingleComponentPickerViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>52F541CC0F033BDB00CC3336</string>
+										<string>526C25070F22E3ED0084A956</string>
 										<key>history</key>
 										<array>
 											<string>52090FEF0F01DF070062C30B</string>
 											<string>52090FF10F01DF070062C30B</string>
-											<string>520910030F01E05E0062C30B</string>
 											<string>52F541B00F033BDB00CC3336</string>
 											<string>52F541B10F033BDB00CC3336</string>
 											<string>52F541B20F033BDB00CC3336</string>
-											<string>52F541B30F033BDB00CC3336</string>
-											<string>52F541B40F033BDB00CC3336</string>
 											<string>52F541B50F033BDB00CC3336</string>
 											<string>52F541B60F033BDB00CC3336</string>
-											<string>52F541B70F033BDB00CC3336</string>
-											<string>52F541B80F033BDB00CC3336</string>
+											<string>525F46AF0F1C43FD00F03F95</string>
+											<string>525F46E10F1C490400F03F95</string>
+											<string>525F46E20F1C490400F03F95</string>
+											<string>526C24FC0F22E3ED0084A956</string>
+											<string>526C24FD0F22E3ED0084A956</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -355,25 +356,18 @@
 											<string>52090FCA0F01D6620062C30B</string>
 											<string>52090FF50F01DF070062C30B</string>
 											<string>52090FF60F01DF070062C30B</string>
-											<string>52F541B90F033BDB00CC3336</string>
-											<string>52F541BA0F033BDB00CC3336</string>
 											<string>52F541BB0F033BDB00CC3336</string>
-											<string>52F541BC0F033BDB00CC3336</string>
-											<string>52F541BD0F033BDB00CC3336</string>
-											<string>52F541BE0F033BDB00CC3336</string>
-											<string>52F541BF0F033BDB00CC3336</string>
 											<string>52F541C00F033BDB00CC3336</string>
-											<string>52F541C10F033BDB00CC3336</string>
-											<string>52F541C20F033BDB00CC3336</string>
-											<string>52F541C30F033BDB00CC3336</string>
-											<string>52F541C40F033BDB00CC3336</string>
-											<string>52F541C50F033BDB00CC3336</string>
-											<string>52F541C60F033BDB00CC3336</string>
-											<string>52F541C70F033BDB00CC3336</string>
-											<string>52F541C80F033BDB00CC3336</string>
-											<string>52F541C90F033BDB00CC3336</string>
 											<string>52F541CA0F033BDB00CC3336</string>
-											<string>52F541CB0F033BDB00CC3336</string>
+											<string>526C24FE0F22E3ED0084A956</string>
+											<string>526C24FF0F22E3ED0084A956</string>
+											<string>526C25000F22E3ED0084A956</string>
+											<string>526C25010F22E3ED0084A956</string>
+											<string>526C25020F22E3ED0084A956</string>
+											<string>526C25030F22E3ED0084A956</string>
+											<string>526C25040F22E3ED0084A956</string>
+											<string>526C25050F22E3ED0084A956</string>
+											<string>526C25060F22E3ED0084A956</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -387,7 +381,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {640, 469}}</string>
 								<key>RubberWindowFrame</key>
-								<string>563 184 848 688 0 0 1440 878 </string>
+								<string>543 64 848 688 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -407,7 +401,7 @@
 								<key>Frame</key>
 								<string>{{0, 474}, {640, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>563 184 848 688 0 0 1440 878 </string>
+								<string>543 64 848 688 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -431,9 +425,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>52F541CD0F033BDB00CC3336</string>
+				<string>526C25080F22E3ED0084A956</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>52F541CE0F033BDB00CC3336</string>
+				<string>526C25090F22E3ED0084A956</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -567,15 +561,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>52F541D70F033BDB00CC3336</string>
-		<string>52F541D80F033BDB00CC3336</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/john/Documents/Projects/test/07 Pickers/Pickers/Pickers.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>52090FF90F01DF070062C30B</string>
 	</array>
 	<key>WindowString</key>
-	<string>563 184 848 688 0 0 1440 878 </string>
+	<string>543 64 848 688 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

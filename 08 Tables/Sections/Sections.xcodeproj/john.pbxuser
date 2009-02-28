@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Sections */ = {
+		activeExec = 0;
+		executables = (
+			52D177F30F11749F00596DC1 /* Sections */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SectionsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {674, 462}}";
+			sepNavSelRange = "{786, 0}";
+			sepNavVisRange = "{45, 748}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SectionsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 3218}}";
+			sepNavSelRange = "{5315, 0}";
+			sepNavVisRange = "{4723, 601}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 52D177F30F11749F00596DC1 /* Sections */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Sections */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Sections */,
+		);
+		codeSenseManager = 52D178010F1174BB00596DC1 /* Code sense */;
+		executables = (
+			52D177F30F11749F00596DC1 /* Sections */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					495,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 252905557;
+			PBXWorkspaceStateSaveDate = 252905557;
+		};
+		perUserProjectItems = {
+			521397CD0F1310A8002A3CD2 /* PBXTextBookmark */ = 521397CD0F1310A8002A3CD2 /* PBXTextBookmark */;
+			521397CE0F1310A8002A3CD2 /* PBXTextBookmark */ = 521397CE0F1310A8002A3CD2 /* PBXTextBookmark */;
+			521397CF0F1310A8002A3CD2 /* PBXTextBookmark */ = 521397CF0F1310A8002A3CD2 /* PBXTextBookmark */;
+			521397D00F1310A8002A3CD2 /* PBXTextBookmark */ = 521397D00F1310A8002A3CD2 /* PBXTextBookmark */;
+			52D178120F11AE4100596DC1 /* PlistBookmark */ = 52D178120F11AE4100596DC1 /* PlistBookmark */;
+			52D178140F11AE4100596DC1 /* PBXTextBookmark */ = 52D178140F11AE4100596DC1 /* PBXTextBookmark */;
+			52D178150F11AE4100596DC1 /* PBXTextBookmark */ = 52D178150F11AE4100596DC1 /* PBXTextBookmark */;
+			52D178170F11AE4100596DC1 /* PlistBookmark */ = 52D178170F11AE4100596DC1 /* PlistBookmark */;
+			52D178180F11AE4100596DC1 /* PBXTextBookmark */ = 52D178180F11AE4100596DC1 /* PBXTextBookmark */;
+			52D178190F11AE4100596DC1 /* PBXTextBookmark */ = 52D178190F11AE4100596DC1 /* PBXTextBookmark */;
+			52D1781B0F11AE4100596DC1 /* PBXTextBookmark */ = 52D1781B0F11AE4100596DC1 /* PBXTextBookmark */;
+			52D1781C0F11AE4100596DC1 /* PBXTextBookmark */ = 52D1781C0F11AE4100596DC1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 52D178000F1174BB00596DC1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	521397CD0F1310A8002A3CD2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SectionsViewController.m */;
+		name = "SectionsViewController.m: 221";
+		rLen = 0;
+		rLoc = 5315;
+		rType = 0;
+		vrLen = 596;
+		vrLoc = 4723;
+	};
+	521397CE0F1310A8002A3CD2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: syntax error before '{' token";
+		fRef = 52D1780D0F117EAB00596DC1 /* NSDictionary-MutableDeepCopy.h */;
+		rLen = 1;
+		rLoc = 3;
+		rType = 1;
+	};
+	521397CF0F1310A8002A3CD2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SectionsViewController.m */;
+		name = "SectionsViewController.m: 221";
+		rLen = 0;
+		rLoc = 5315;
+		rType = 0;
+		vrLen = 596;
+		vrLoc = 4723;
+	};
+	521397D00F1310A8002A3CD2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52D1780D0F117EAB00596DC1 /* NSDictionary-MutableDeepCopy.h */;
+		name = "NSDictionary-MutableDeepCopy.h: 4";
+		rLen = 0;
+		rLoc = 76;
+		rType = 0;
+		vrLen = 125;
+		vrLoc = 0;
+	};
+	52D177F30F11749F00596DC1 /* Sections */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Sections;
+		sourceDirectories = (
+		);
+	};
+	52D178000F1174BB00596DC1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	52D178010F1174BB00596DC1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	52D1780D0F117EAB00596DC1 /* NSDictionary-MutableDeepCopy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 186}}";
+			sepNavSelRange = "{76, 0}";
+			sepNavVisRange = "{0, 125}";
+		};
+	};
+	52D1780E0F117EC600596DC1 /* NSDictionary-MutableDeepCopy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {674, 490}}";
+			sepNavSelRange = "{707, 0}";
+			sepNavVisRange = "{89, 627}";
+		};
+	};
+	52D178120F11AE4100596DC1 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 52D178020F11762A00596DC1 /* sortednames.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/john/Documents/Projects/test/08 Tables/Sections/sortednames.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	52D178140F11AE4100596DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52D1780E0F117EC600596DC1 /* NSDictionary-MutableDeepCopy.m */;
+		name = "NSDictionary-MutableDeepCopy.m: 31";
+		rLen = 0;
+		rLoc = 707;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 89;
+	};
+	52D178150F11AE4100596DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SectionsViewController.h */;
+		name = "SectionsViewController.h: 30";
+		rLen = 0;
+		rLoc = 786;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 45;
+	};
+	52D178170F11AE4100596DC1 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 52D178020F11762A00596DC1 /* sortednames.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/john/Documents/Projects/test/08 Tables/Sections/sortednames.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	52D178180F11AE4100596DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SectionsViewController.m */;
+		name = "SectionsViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 0;
+	};
+	52D178190F11AE4100596DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SectionsViewController.h */;
+		name = "SectionsViewController.h: 18";
+		rLen = 0;
+		rLoc = 590;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	52D1781B0F11AE4100596DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52D1780D0F117EAB00596DC1 /* NSDictionary-MutableDeepCopy.h */;
+		name = "NSDictionary-MutableDeepCopy.h: 1";
+		rLen = 0;
+		rLoc = 125;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	52D1781C0F11AE4100596DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52D1780E0F117EC600596DC1 /* NSDictionary-MutableDeepCopy.m */;
+		name = "NSDictionary-MutableDeepCopy.m: 1";
+		rLen = 0;
+		rLoc = 716;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+}

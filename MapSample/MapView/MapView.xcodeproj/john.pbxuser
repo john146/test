@@ -1,0 +1,96 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* SimpleMap */ = {
+		activeExec = 0;
+		executables = (
+			527CF53A0F59EB6700A6075E /* SimpleMap */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 527CF53A0F59EB6700A6075E /* SimpleMap */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SimpleMap */;
+		codeSenseManager = 527CF54D0F59EB6F00A6075E /* Code sense */;
+		executables = (
+			527CF53A0F59EB6700A6075E /* SimpleMap */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 257551767;
+			PBXWorkspaceStateSaveDate = 257551767;
+		};
+		perUserProjectItems = {
+			527CF5740F59EDDC00A6075E /* PBXBookmark */ = 527CF5740F59EDDC00A6075E /* PBXBookmark */;
+			527CF5750F59EDDC00A6075E /* PBXBookmark */ = 527CF5750F59EDDC00A6075E /* PBXBookmark */;
+		};
+		sourceControlManager = 527CF54C0F59EB6F00A6075E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	527CF53A0F59EB6700A6075E /* SimpleMap */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SimpleMap;
+		sourceDirectories = (
+		);
+	};
+	527CF54C0F59EB6F00A6075E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	527CF54D0F59EB6F00A6075E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	527CF5740F59EDDC00A6075E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B8474C6D0EB53A41006A0BC1 /* marker-blue.png */;
+	};
+	527CF5750F59EDDC00A6075E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B8474C6D0EB53A41006A0BC1 /* marker-blue.png */;
+	};
+	B8C974130E8A19B2007D16AD /* MapView */ = {
+		activeExec = 0;
+	};
+}

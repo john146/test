@@ -26,7 +26,7 @@
 					20,
 					386,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -41,14 +41,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 251350110;
-			PBXWorkspaceStateSaveDate = 251350110;
+			PBXPerProjectTemplateStateSaveDate = 254617325;
+			PBXWorkspaceStateSaveDate = 254617325;
 		};
 		perUserProjectItems = {
 			522930CD0EFB51CF001FBB55 /* PBXBookmark */ = 522930CD0EFB51CF001FBB55 /* PBXBookmark */;
-			522930CE0EFB51CF001FBB55 /* PBXBookmark */ = 522930CE0EFB51CF001FBB55 /* PBXBookmark */;
 			522930CF0EFB51CF001FBB55 /* PBXBookmark */ = 522930CF0EFB51CF001FBB55 /* PBXBookmark */;
 			522930D00EFB51CF001FBB55 /* PlistBookmark */ = 522930D00EFB51CF001FBB55 /* PlistBookmark */;
+			52B1E28C0F2D293000AC332A /* PlistBookmark */ = 52B1E28C0F2D293000AC332A /* PlistBookmark */;
 		};
 		sourceControlManager = 522930B40EFB4C7D001FBB55 /* Source Control */;
 		userBuildSettings = {
@@ -93,15 +93,23 @@
 		isa = PBXBookmark;
 		fRef = 522930C80EFB50F0001FBB55 /* icon.png */;
 	};
-	522930CE0EFB51CF001FBB55 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-	};
 	522930CF0EFB51CF001FBB55 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 522930C80EFB50F0001FBB55 /* icon.png */;
 	};
 	522930D00EFB51CF001FBB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/john/Documents/Projects/test/02 Hello World/Hello World/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	52B1E28C0F2D293000AC332A /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
 		fallbackIsa = PBXBookmark;
