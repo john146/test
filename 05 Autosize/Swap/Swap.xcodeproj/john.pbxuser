@@ -9,16 +9,16 @@
 	28D7ACF60DDB3853001CB0EB /* SwapViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {633, 532}}";
-			sepNavSelRange = "{878, 0}";
+			sepNavSelRange = "{376, 0}";
 			sepNavVisRange = "{142, 743}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* SwapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {660, 1736}}";
+			sepNavIntBoundsRect = "{{0, 0}, {660, 1582}}";
 			sepNavSelRange = "{713, 29}";
-			sepNavVisRange = "{138, 922}";
+			sepNavVisRange = "{210, 1073}";
 			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
 		};
 	};
@@ -39,7 +39,7 @@
 					20,
 					455,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -54,20 +54,72 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 251577978;
-			PBXWorkspaceStateSaveDate = 251577978;
+			PBXPerProjectTemplateStateSaveDate = 259468224;
+			PBXWorkspaceStateSaveDate = 259468224;
 		};
 		perUserProjectItems = {
-			52C3E73F0EFECFE80058B80A /* PBXTextBookmark */ = 52C3E73F0EFECFE80058B80A /* PBXTextBookmark */;
+			526D511C0F772BEC00112148 /* PBXTextBookmark */ = 526D511C0F772BEC00112148 /* PBXTextBookmark */;
+			526D511D0F772BEC00112148 /* PBXTextBookmark */ = 526D511D0F772BEC00112148 /* PBXTextBookmark */;
+			526D511E0F772BEC00112148 /* PBXTextBookmark */ = 526D511E0F772BEC00112148 /* PBXTextBookmark */;
+			526D511F0F772BEC00112148 /* PBXTextBookmark */ = 526D511F0F772BEC00112148 /* PBXTextBookmark */;
+			526D51200F772BEC00112148 /* PBXTextBookmark */ = 526D51200F772BEC00112148 /* PBXTextBookmark */;
 			52C3E7400EFECFE80058B80A /* PBXTextBookmark */ = 52C3E7400EFECFE80058B80A /* PBXTextBookmark */;
-			52C3E7410EFECFE80058B80A /* PBXTextBookmark */ = 52C3E7410EFECFE80058B80A /* PBXTextBookmark */;
 			52C3E7430EFECFE80058B80A /* PBXTextBookmark */ = 52C3E7430EFECFE80058B80A /* PBXTextBookmark */;
 			52C3E7440EFECFE80058B80A /* PBXTextBookmark */ = 52C3E7440EFECFE80058B80A /* PBXTextBookmark */;
-			52C3E7450EFECFE80058B80A /* PBXTextBookmark */ = 52C3E7450EFECFE80058B80A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 52C3E7330EFEC6880058B80A /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	526D511C0F772BEC00112148 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52C3E7460EFECFE80058B80A /* CGAffineTransform.h */;
+		name = "CGAffineTransform.h: 4";
+		rLen = 0;
+		rLoc = 103;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	526D511D0F772BEC00112148 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
+		name = "SwapViewController.h: 19";
+		rLen = 0;
+		rLoc = 376;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 142;
+	};
+	526D511E0F772BEC00112148 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52C3E7460EFECFE80058B80A /* CGAffineTransform.h */;
+		name = "CGAffineTransform.h: 4";
+		rLen = 0;
+		rLoc = 103;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	526D511F0F772BEC00112148 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
+		name = "SwapViewController.h: 19";
+		rLen = 0;
+		rLoc = 376;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 142;
+	};
+	526D51200F772BEC00112148 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SwapViewController.m */;
+		name = "SwapViewController.m: 27";
+		rLen = 29;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 210;
 	};
 	52C3E7270EFEC67A0058B80A /* Swap */ = {
 		isa = PBXExecutable;
@@ -104,16 +156,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	52C3E73F0EFECFE80058B80A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
-		name = "SwapViewController.h: 34";
-		rLen = 0;
-		rLoc = 878;
-		rType = 0;
-		vrLen = 743;
-		vrLoc = 142;
-	};
 	52C3E7400EFECFE80058B80A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* SwapViewController.m */;
@@ -123,20 +165,6 @@
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 138;
-	};
-	52C3E7410EFECFE80058B80A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52C3E7420EFECFE80058B80A /* CGAffineTransform.h */;
-		rLen = 1;
-		rLoc = 43;
-		rType = 1;
-	};
-	52C3E7420EFECFE80058B80A /* CGAffineTransform.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CGAffineTransform.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h;
-		sourceTree = "<absolute>";
 	};
 	52C3E7430EFECFE80058B80A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -158,23 +186,14 @@
 		vrLen = 922;
 		vrLoc = 138;
 	};
-	52C3E7450EFECFE80058B80A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52C3E7460EFECFE80058B80A /* CGAffineTransform.h */;
-		name = "CGAffineTransform.h: 4";
-		rLen = 0;
-		rLoc = 103;
-		rType = 0;
-		vrLen = 747;
-		vrLoc = 0;
-	};
 	52C3E7460EFECFE80058B80A /* CGAffineTransform.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = CGAffineTransform.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {633, 2128}}";
+			sepNavIntBoundsRect = "{{0, 0}, {633, 2170}}";
 			sepNavSelRange = "{103, 0}";
 			sepNavVisRange = "{0, 747}";
 		};
