@@ -11,17 +11,20 @@
 @implementation NavAppDelegate
 
 @synthesize window;
+@synthesize navController;
 
-
-- (void)applicationDidFinishLaunching:(UIApplication *)application {    
-
-    // Override point for customization after application launch
+- (void)applicationDidFinishLaunching:(UIApplication *)application 
+{    
+	[window addSubview: navController.view];
     [window makeKeyAndVisible];
 }
 
 
-- (void)dealloc {
+- (void)dealloc 
+{
+	[navController release];
     [window release];
+	
     [super dealloc];
 }
 

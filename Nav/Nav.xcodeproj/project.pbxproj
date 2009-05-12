@@ -13,6 +13,17 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		52CE33890FB8D594009EA451 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CE33880FB8D594009EA451 /* RootViewController.m */; };
+		52CE338D0FB8D90E009EA451 /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CE338C0FB8D90E009EA451 /* SecondLevelViewController.m */; };
+		52CE33920FB8E297009EA451 /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CE33910FB8E297009EA451 /* DisclosureButtonController.m */; };
+		52CE33990FB8E2BD009EA451 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE33930FB8E2BD009EA451 /* checkmarkControllerIcon.png */; };
+		52CE339A0FB8E2BD009EA451 /* deleteMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE33940FB8E2BD009EA451 /* deleteMeIcon.png */; };
+		52CE339B0FB8E2BD009EA451 /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE33950FB8E2BD009EA451 /* detailEditIcon.png */; };
+		52CE339C0FB8E2BD009EA451 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE33960FB8E2BD009EA451 /* disclosureButtonControllerIcon.png */; };
+		52CE339D0FB8E2BD009EA451 /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE33970FB8E2BD009EA451 /* moveMeIcon.png */; };
+		52CE339E0FB8E2BD009EA451 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE33980FB8E2BD009EA451 /* rowControlsIcon.png */; };
+		52CE33A10FB8E2F3009EA451 /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CE33A00FB8E2F3009EA451 /* DisclosureDetailController.m */; };
+		52CE33A30FB8E440009EA451 /* DisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CE33A20FB8E440009EA451 /* DisclosureDetail.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +36,21 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Nav_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav_Prefix.pch; sourceTree = "<group>"; };
+		52CE33870FB8D594009EA451 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		52CE33880FB8D594009EA451 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		52CE338B0FB8D90E009EA451 /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
+		52CE338C0FB8D90E009EA451 /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
+		52CE33900FB8E297009EA451 /* DisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController.h; sourceTree = "<group>"; };
+		52CE33910FB8E297009EA451 /* DisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController.m; sourceTree = "<group>"; };
+		52CE33930FB8E2BD009EA451 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
+		52CE33940FB8E2BD009EA451 /* deleteMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteMeIcon.png; sourceTree = "<group>"; };
+		52CE33950FB8E2BD009EA451 /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailEditIcon.png; sourceTree = "<group>"; };
+		52CE33960FB8E2BD009EA451 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
+		52CE33970FB8E2BD009EA451 /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
+		52CE33980FB8E2BD009EA451 /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
+		52CE339F0FB8E2F3009EA451 /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
+		52CE33A00FB8E2F3009EA451 /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
+		52CE33A20FB8E440009EA451 /* DisclosureDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisclosureDetail.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +73,14 @@
 			children = (
 				1D3623240D0F684500981E51 /* NavAppDelegate.h */,
 				1D3623250D0F684500981E51 /* NavAppDelegate.m */,
+				52CE33870FB8D594009EA451 /* RootViewController.h */,
+				52CE33880FB8D594009EA451 /* RootViewController.m */,
+				52CE338B0FB8D90E009EA451 /* SecondLevelViewController.h */,
+				52CE338C0FB8D90E009EA451 /* SecondLevelViewController.m */,
+				52CE33900FB8E297009EA451 /* DisclosureButtonController.h */,
+				52CE33910FB8E297009EA451 /* DisclosureButtonController.m */,
+				52CE339F0FB8E2F3009EA451 /* DisclosureDetailController.h */,
+				52CE33A00FB8E2F3009EA451 /* DisclosureDetailController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -83,8 +117,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				52CE33930FB8E2BD009EA451 /* checkmarkControllerIcon.png */,
+				52CE33940FB8E2BD009EA451 /* deleteMeIcon.png */,
+				52CE33950FB8E2BD009EA451 /* detailEditIcon.png */,
+				52CE33960FB8E2BD009EA451 /* disclosureButtonControllerIcon.png */,
+				52CE33970FB8E2BD009EA451 /* moveMeIcon.png */,
+				52CE33980FB8E2BD009EA451 /* rowControlsIcon.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				52CE33A20FB8E440009EA451 /* DisclosureDetail.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -142,6 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				52CE33990FB8E2BD009EA451 /* checkmarkControllerIcon.png in Resources */,
+				52CE339A0FB8E2BD009EA451 /* deleteMeIcon.png in Resources */,
+				52CE339B0FB8E2BD009EA451 /* detailEditIcon.png in Resources */,
+				52CE339C0FB8E2BD009EA451 /* disclosureButtonControllerIcon.png in Resources */,
+				52CE339D0FB8E2BD009EA451 /* moveMeIcon.png in Resources */,
+				52CE339E0FB8E2BD009EA451 /* rowControlsIcon.png in Resources */,
+				52CE33A30FB8E440009EA451 /* DisclosureDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +202,10 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* NavAppDelegate.m in Sources */,
+				52CE33890FB8D594009EA451 /* RootViewController.m in Sources */,
+				52CE338D0FB8D90E009EA451 /* SecondLevelViewController.m in Sources */,
+				52CE33920FB8E297009EA451 /* DisclosureButtonController.m in Sources */,
+				52CE33A10FB8E2F3009EA451 /* DisclosureDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

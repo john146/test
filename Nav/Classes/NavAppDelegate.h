@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NavAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
+@interface NavAppDelegate : NSObject <UIApplicationDelegate> 
+{
+   IBOutlet UIWindow				*window;
+	IBOutlet UINavigationController	*navController;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain)UIWindow				*window;
+@property (nonatomic, retain)UINavigationController	*navController;
 
 @end
 
